@@ -43,10 +43,8 @@ function computerTurn(){
     } else {
         const index = Math.floor(Math.random() * availableCells.length);
         const [row, col] = availableCells[index];
-        setTimeout(() => {
-            selectCol(col);
-            enableBoard();
-        }, 100);
+        selectCol(col);
+        enableBoard();
     }
 }
 
