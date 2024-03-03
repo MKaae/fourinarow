@@ -2,6 +2,8 @@
 import { selectCol } from "../controller/controller.js";
 import { GRID_COLS } from "../controller/controller.js";
 
+window.addEventListener('DOMContentLoaded', start)
+
 let board = document.getElementById('board');
 
 export function createView(GRID_ROWS, GRID_COLS){
