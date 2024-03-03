@@ -1,6 +1,5 @@
 'use-strict';
-import { selectCol } from "../controller/controller.js";
-import { GRID_COLS } from "../controller/controller.js";
+import { selectCol, start, GRID_COLS } from "../controller/controller.js";
 
 window.addEventListener('DOMContentLoaded', start)
 
