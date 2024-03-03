@@ -1,8 +1,6 @@
 'use-strict';
-import { start, selectCol } from "../controller/controller.js";
+import { selectCol } from "../controller/controller.js";
 import { GRID_COLS } from "../controller/controller.js";
-
-window.addEventListener('DOMContentLoaded', start)
 
 let board = document.getElementById('board');
 
