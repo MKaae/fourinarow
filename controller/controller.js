@@ -1,7 +1,7 @@
 'use-strict';
 
 import { createModel, changeModelRow, checkForWin, availableCellsChecker } from "../model/model.js";
-import { makeBoardClickAble, createView, updateView, playerWin, disableBoard, enableBoard } from "../view/View.js";
+import { makeBoardClickAble, createView, updateView, playerWin, disableBoard, enableBoard } from "../view/view.js";
 
 export const GRID_ROWS = 6;
 export const GRID_COLS = 7;
